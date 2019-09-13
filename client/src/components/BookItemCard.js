@@ -14,7 +14,7 @@ function BookItemCard(props) {
                     <div className="card-body">
                         <h5 className="card-title">{props.title}</h5>
                         <p className="card-text">Written By: {props.author}</p>
-                        <p className="card-text">Desc: {props.description}</p>
+                        <p className="card-text">Description: {props.description}</p>
 
                     </div>
                     <a href={props.href} target="_blank" className="btn btn-primary" role="button">View</a>
